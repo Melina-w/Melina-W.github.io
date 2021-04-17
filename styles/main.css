@@ -1,1 +1,113 @@
+body {
+  background: #e5e6e9;
+  color: #5b5b5c;
+  margin: 0;
+}
 
+h1 {
+  font-family: "Rye", cursive;
+  font-size: 44px;
+  text-align: center;
+  width: 100%;
+}
+
+h2 {
+  font-size: 34px;
+  font-family: "Rye", cursive;
+  text-decoration: underline;
+}
+
+p {
+  display: block;
+  font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 24px;
+  line-height: 150%;
+}
+
+#content {
+  margin: 0 30%;
+}
+
+.search-input {
+  background-color: #f8f9fc;
+  border: 1px;
+  border-radius: 2px;
+  cursor: text;
+  font-size: 20px;
+  text-align: center;
+}
+
+.search-button,
+.menu-button {
+  background-color: #ff6600;
+  border-color: #ff6600;
+  border-radius: 5px;
+  color: #333;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.search-button:hover,
+.menu-button:hover {
+  background-color: #ff7d26;
+}
+
+#search-form {
+  float: right;
+  padding: 20px;
+}
+
+a {
+  color: #ff6600;
+  text-decoration: none;
+}
+
+.blog-photo {
+  width: 200px;
+  margin-left: 15px;
+  border-radius: 50%;
+  display: inline;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  background: #e5e6e9;
+}
+
+.header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header li {
+  display: inline-block;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.header li:hover {
+  background-color: #ff7d26;
+}
+
+.header li:hover a {
+  color: #333;
+}
+
+nav > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.coding-icon {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 70px;
+}
+
+.menu {
+  margin: 0 15px;
+}
