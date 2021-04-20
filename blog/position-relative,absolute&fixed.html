@@ -24,7 +24,7 @@
   <body>
     <header class="header">
       <nav class="menu">
-        <a href="file:///C:/Users/melin/coding/Melina-W.github.io/index.html">
+        <a href="../index.html">
           <img
             class="coding-icon"
             src="../src/img/coding-icon.png"
@@ -33,38 +33,32 @@
         </a>
         <ul>
           <li>
-            <a
-              href="file:///C:/Users/melin/coding/Melina-W.github.io/index.html"
-              target="_blank"
-              >Home
-            </a>
+            <a href="../index.html">Home </a>
           </li>
-          <li>
-            <a
-              href="file:///C:/Users/melin/coding/Melina-W.github.io/blog/sprint1-technical.html "
-              target="_blank"
-              >Blog
-            </a>
+          <li class="dropdown">
+            <span class="dropbtn">Blog</span>
+            <div class="dropdown-content">
+              <a href="../blog/position-relative,absolute&fixed.html"
+                >Position:Relative, Absolute and Fixed
+              </a>
+              <a href="../blog/learning-plan.html">Learning Plan </a>
+            </div>
           </li>
           <li><a href=" " target="_blank">Projects</a></li>
           <li>
-            <a
-              href="file:///C:/Users/melin/coding/Melina-W.github.io/about-me/my-values.html "
-              target="_blank"
-              >About me
-            </a>
+            <a href="../about-me/my-values.html " target="_blank">About me </a>
           </li>
           <li><a href=" " target="_blank">Contact</a></li>
+          <li style="float: right">
+            <input
+              class="search-input"
+              type="search"
+              placeholder="Search by name"
+              id="search-input"
+            />
+            <button class="search-button"><i class="fas fa-search"></i></button>
+          </li>
         </ul>
-        <div id="search-form">
-          <input
-            class="search-input"
-            type="search"
-            placeholder="Search by name"
-            id="search-input"
-          />
-          <button class="search-button"><i class="fas fa-search"></i></button>
-        </div>
       </nav>
     </header>
     <main>
@@ -79,7 +73,7 @@
         <p>
           The position property can take different values like relative,
           absolute and fixed but you might be wondering what are the different
-          between them. Let’s get stated!
+          between them. Let’s get started!
         </p>
         <h2>{position: relative;}</h2>
 
@@ -110,9 +104,9 @@
           This is a powerful type of positioning as the element with absolute
           position is taken out of the normal flow of the website and other
           elements are position as if the absolute element does not exist.
-          Another characteristic to have in mind is that the absolutely
-          positioned element is positioned relative to its nearest positioned
-          ancestor (i.e., the nearest ancestor that is not static)
+          Another characteristic to have in mind is that the absolute positioned
+          element is positioned relative to its nearest positioned ancestor
+          (i.e, the nearest ancestor that is not static)
         </p>
         <p>
           Let’s have a look at the images below, we have 2 elements; one of
@@ -131,7 +125,7 @@
           class="positioning"
         />
         <p>
-          A we can see on the image last image, the child element although being
+          A we can see on the previous image, the child element although being
           still inside the parent, it is positioned at the top-left of it. This
           is because we set the top and left attribute to 0px on the child
           attribute and position relative on the parent element. If we remove
@@ -161,13 +155,16 @@
           class="positioning"
         />
         <p>
-          If you want to read more about
+          If you want to read more about positioning click on the
           <a
             href="https://developer.mozilla.org/en-US/docs/Web/CSS/position"
             target="_blank"
-          >
-            positioning</a
-          >
+            >"position link"</a
+          >.
+        </p>
+        <p>
+          Have fun and thank you for reading my blog!
+          <i class="far fa-smile"></i>
         </p>
       </div>
     </main>

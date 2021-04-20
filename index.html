@@ -22,7 +22,7 @@
   <body>
     <header class="header">
       <nav class="menu">
-        <a href="file:///C:/Users/melin/coding/Melina-W.github.io/index.html">
+        <a href="index.html">
           <img
             class="coding-icon"
             src="src/img/coding-icon.png"
@@ -31,68 +31,45 @@
         </a>
         <ul>
           <li>
-            <a
-              href="file:///C:/Users/melin/coding/Melina-W.github.io/index.html"
-              target="_blank"
-              >Home
-            </a>
+            <a href="index.html">Home </a>
           </li>
+          <li class="dropdown">
+            <span class="dropbtn">Blog</span>
+            <div class="dropdown-content">
+              <a href="blog/position-relative,absolute&fixed.html"
+                >Position:Relative, Absolute and Fixed
+              </a>
+              <a href="blog/learning-plan.html">Learning Plan </a>
+            </div>
+          </li>
+          <li><a href=" ">Projects</a></li>
           <li>
-            <a
-              href="file:///C:/Users/melin/coding/Melina-W.github.io/blog/sprint1-technical.html "
-              target="_blank"
-              >Blog
-            </a>
+            <a href="about-me/my-values.html ">About me </a>
           </li>
-          <li><a href=" " target="_blank">Projects</a></li>
-          <li>
-            <a
-              href="file:///C:/Users/melin/coding/Melina-W.github.io/about-me/my-values.html "
-              target="_blank"
-              >About me
-            </a>
+          <li><a href=" ">Contact</a></li>
+          <li style="float: right">
+            <input
+              class="search-input"
+              type="search"
+              placeholder="Search by name"
+              id="search-input"
+            />
+            <button class="search-button"><i class="fas fa-search"></i></button>
           </li>
-          <li><a href=" " target="_blank">Contact</a></li>
         </ul>
-        <div id="search-form">
-          <input
-            class="search-input"
-            type="search"
-            placeholder="Search by name"
-            id="search-input"
-          />
-          <button class="search-button"><i class="fas fa-search"></i></button>
-        </div>
       </nav>
     </header>
-    <img class="my-photo" src="src/img/Meli.png" alt="my-photo" />
-    <div>
-      <h1>Melina Waigant</h1>
-      <h2>Entry-level Software Developer in Auckland</h2>
-      <p>
-        Recently graduated from sheCodes.io and currently doing a bootcamp at
-        Dev Academy
-      </p>
-      <p>
-        I am enthusiastic about facing challenges such as developing with the
-        latest frameworks or working with complex business domain models. I
-        consider myself to be a team player and a fast learner since I am
-        adaptable and rapidly become productive in different environments and
-        technologies. Furthermore, I work hard to get things done and constantly
-        challenge my solutions to make them scalable, efficient, robust,
-        well-architected and documented.
-      </p>
-      <p>
-        Through experience working with classmates in different projects, I have
-        developed solid interpersonal skills with the ability to interface with
-        individuals at all levels, contribute to teamwork, mentor other member
-        of the development team, manage projects and build prolific customer
-        relationships. I am keen on gaining more software development experience
-        in New Zealand and I am currently looking for a job in a full stack
-        developer role where I can use my skills and my proactivity to
-        contribute to achieve business goals, work with modern technologies and
-        increase my technical and interpersonal abilities.
-      </p>
-    </div>
+    <main>
+      <div id="content">
+        <img class="my-photo" src="src/img/Meli.png" alt="my-photo" />
+        <h1>Melina Waigant</h1>
+        <h3>Entry-level Software Developer in Auckland</h3>
+        <hr />
+        <p>
+          Recently graduated from sheCodes.io and currently doing a bootcamp at
+          Dev Academy
+        </p>
+      </div>
+    </main>
   </body>
 </html>
