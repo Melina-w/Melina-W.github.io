@@ -127,7 +127,8 @@ nav > * {
   margin-top: 40px;
 }
 
-.positioning {
+.positioning,
+.comparison {
   border: 8px;
   display: block;
   margin: auto;
