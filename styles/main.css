@@ -184,3 +184,10 @@ nav > * {
   background-color: #ff7d26;
   color: #333;
 }
+
+.neuroplasticity li {
+  font-family: "Share Tech", sans-serif;
+  font-size: 24px;
+  line-height: 150%;
+  list-style: disc;
+}
