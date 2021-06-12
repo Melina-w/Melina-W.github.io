@@ -1,14 +1,16 @@
+
+  
+
 body {
   background: #e5e6e9;
   color: #5b5b5c;
   margin: 0;
 }
+ 
 
 h1 {
   font-family: "Share Tech Mono", monospace;
-  font-size: 44px;
   text-align: center;
-  width: 100%;
   font-weight: bold;
 }
 
@@ -41,8 +43,10 @@ p {
   border: 1px;
   border-radius: 2px;
   cursor: text;
+  display: none;
   font-size: 20px;
   text-align: center;
+
 }
 
 .search-button,
@@ -52,6 +56,7 @@ p {
   border-radius: 5px;
   color: #333;
   cursor: pointer;
+  display: none;
   font-size: 20px;
 }
 
@@ -191,3 +196,36 @@ nav > * {
   line-height: 150%;
   list-style: disc;
 }
+
+@media only screen and (max-width: 768px)and 
+(min-width:321px){
+.header{
+  display: inline-block;
+  padding: 10px;
+  font-size: 10px;
+}
+} 
+@media only screen and (max-width: 320px){
+.header{
+  position: sticky;
+  top: 0;
+  width: 100vw;
+  z-index: 2;
+  background: #e5e6e9;
+}
+
+.header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: calc(100% - 83px);
+}
+
+.header li {
+  display: inline-block;
+  padding: 10px;
+  font-size: 10px;
+}
+
+
+} 
